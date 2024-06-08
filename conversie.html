@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversie Unități</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        select, input {
+            padding: 10px;
+            margin: 10px;
+            width: 80%;
+            max-width: 300px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Conversie Unități</h1>
+        <select id="unitType" onchange="populateUnits()">
+            <option value="length">Lungime</option>
+            <option value="weight">Greutate</option>
+            <option value="temperature">Temperatură</option>
+        </select>
+        <br>
+        <input type="number" id="inputValue" placeholder="Introdu valoarea">
+        <br>
+        <select id="fromUnit"></select>
+        <select id="toUnit"></select>
+        <br>
+        <button onclick="convert()">Convertește</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script>
+        const units = {
+            length: ['metri', 'kilometri', 'mile', 'picioare'],
+            weight: ['grame', 'kilograme', 'livre', 'uncii'],
+            temperature: ['celsius', 'fahrenheit', 'kelvin']
+        };
+
+        function populateUnits() {
+            const unitType = document.getElementById('unitType').value;
+            const fromUnit = document.getElementById('fromUnit');
+            const toUnit = document.getElementById('toUnit');
+            
+            fromUnit.innerHTML = '';
+            toUnit.innerHTML = '';
+
+            units[unitType].forEach(unit => {
+                let option1 = document.createElement('option');
+                option1.value = unit;
+                option1.textContent = unit;
+                fromUnit.appendChild(option1);
+
+                let option2 = document.createElement('option');
+                option2.value = unit;
+                option2.textContent = unit;
+                toUnit.appendChild(option2);
+            });
+        }
+
+        function convert() {
+            const unitType = document.getElementById('unitType').value;
+            const inputValue = parseFloat(document.getElementById('inputValue').value);
+            const fromUnit = document.getElementById('fromUnit').value;
+            const toUnit = document.getElementById('toUnit').value;
+            let result;
+
+            if (unitType === 'length') {
+                result = convertLength(inputValue, fromUnit, toUnit);
+            } else if (unitType === 'weight') {
+                result = convertWeight(inputValue, fromUnit, toUnit);
+            } else if (unitType === 'temperature') {
+                result = convertTemperature(inputValue, fromUnit, toUnit);
+            }
+
+            document.getElementById('result').textContent = `${inputValue} ${fromUnit} este egal cu ${result} ${toUnit}`;
+        }
+
+        function convertLength(value, from, to) {
+            const conversions = {
+                metri: 1,
+                kilometri: 0.001,
+                mile: 0.000621371,
+                picioare: 3.28084
+            };
+            return (value * conversions[from] / conversions[to]).toFixed(2);
+        }
+
+        function convertWeight(value, from, to) {
+            const conversions = {
+                grame: 1,
+                kilograme: 0.001,
+                livre: 0.00220462,
+                uncii: 0.035274
+            };
+            return (value * conversions[from] / conversions[to]).toFixed(2);
+        }
+
+        function convertTemperature(value, from, to) {
+            if (from === 'celsius') {
+                if (to === 'fahrenheit') {
+                    return (value * 9/5 + 32).toFixed(2);
+                } else if (to === 'kelvin') {
+                    return (value + 273.15).toFixed(2);
+                }
+            } else if (from === 'fahrenheit') {
+                if (to === 'celsius') {
+                    return ((value - 32) * 5/9).toFixed(2);
+                } else if (to === 'kelvin') {
+                    return ((value - 32) * 5/9 + 273.15).toFixed(2);
+                }
+            } else if (from === 'kelvin') {
+                if (to === 'celsius') {
+                    return (value - 273.15).toFixed(2);
+                } else if (to === 'fahrenheit') {
+                    return ((value - 273.15) * 9/5 + 32).toFixed(2);
+                }
+            }
+        }
+
+        // Initialize units
+        populateUnits();
+    </script>
+</body>
+</html>
