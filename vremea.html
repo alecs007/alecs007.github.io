@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vremea în Localitate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            width: 80%;
+            max-width: 300px;
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Vremea în Localitate</h1>
+        <input type="text" id="city" placeholder="Introdu localitatea">
+        <button onclick="getWeather()">Afișează Vremea</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script>
+        async function getWeather() {
+            const city = document.getElementById('city').value;
+            const apiKey = '08c166350cc8024625e3df240b998376';
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=ro`;
+
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error('Localitate nu a fost găsită.');
+                }
+                const data = await response.json();
+                displayWeather(data);
+            } catch (error) {
+                document.getElementById('result').textContent = error.message;
+            }
+        }
+
+        function displayWeather(data) {
+            const { name, main, weather } = data;
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = `
+                <h2>${name}</h2>
+                <p>Temperatura: ${main.temp}°C</p>
+                <p>Vreme: ${weather[0].description}</p>
+            `;
+        }
+    </script>
+</body>
+</html>
