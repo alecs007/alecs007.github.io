@@ -12,23 +12,23 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={proiect_roma}
-          link="https://github.com/alecs007/proiect_roma.git"
+          link="https://alecs007.github.io/proiect_roma/"
           h3="Proiect Roma"
         />
         <ProjectCard
           src={profile1}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
+          h3="proiect"
         />
         <ProjectCard
           src={profile1}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
+          h3="proiect"
         />
         <ProjectCard
           src={profile1}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
+          h3="proiect"
         />
       </div>
     </section>
