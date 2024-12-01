@@ -39,7 +39,9 @@ function Hero() {
         </p>
       </div>
       <a href="assets/background2-XMdQVge_.jpg" download>
-        <button className={styles.button}>Resume</button>
+        <button>
+          Resume <i className="fas fa-cloud-download-alt"></i>
+        </button>
       </a>
     </section>
   );
