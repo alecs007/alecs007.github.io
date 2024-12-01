@@ -38,7 +38,10 @@ function Hero() {
           code.
         </p>
       </div>
-      <a href="../assets/background2.jpg" download>
+      <a
+        href="https://github.com/alecs007/alecs007.github.io/blob/gh-pages/assets/background2-XMdQVge_.jpg"
+        download
+      >
         <button className={styles.button}>Resume</button>
       </a>
     </section>
