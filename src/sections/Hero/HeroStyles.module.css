@@ -64,6 +64,8 @@
 a {
   width: fit-content;
   align-self: center;
+  text-decoration: none;
+  color: #000000;
 }
 
 button {
@@ -76,6 +78,7 @@ button {
   cursor: pointer;
   background-color: rgba(254, 255, 255, 0.671);
   transition: transform 0.2s ease-in-out;
+  color: #000000;
 }
 button:hover {
   transform: scale(1.05);
