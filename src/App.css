@@ -1,3 +1,13 @@
+:root {
+  --background-color: linear-gradient(
+    45deg,
+    #2b5876,
+    #4e4376,
+    #2b5876,
+    #4e4376
+  );
+  --text-color: white;
+}
 #root {
   margin: 0;
   padding: 0;
@@ -7,9 +17,7 @@
   align-items: center;
   overflow: auto;
   min-height: 100vh;
-  background-image: url("./assets/background2.jpg");
-  background-size: cover;
-  background-position: center;
+  background: var(--background-color);
 }
 body {
   touch-action: none;
@@ -17,7 +25,8 @@ body {
   width: 100vw;
   margin: 0;
   padding: 0;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   box-sizing: border-box;
 }
 p {
@@ -26,16 +35,19 @@ p {
   max-width: 25ch;
   line-height: 1.5em;
 }
-
+p,
+h1,
+h2,
+h3 {
+  color: var(--text-color);
+}
 ::-webkit-scrollbar {
   width: 10px;
+  background-color: rgba(0, 0, 0, 0);
 }
-
 ::-webkit-scrollbar-track {
-  background: #504d4d;
-  border-radius: 10px;
+  background: var(--background-color);
 }
-
 ::-webkit-scrollbar-thumb {
   background: #888;
   border-radius: 10px;
