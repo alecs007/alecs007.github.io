@@ -8,7 +8,7 @@
   width: 95dvw;
   max-width: 600px;
   height: calc(100dvh - 10px);
-  max-height: 875px;
+  min-height: 875px;
   overflow: hidden;
   border-radius: 15px;
   box-shadow: 0 0 5px #4942a7;
