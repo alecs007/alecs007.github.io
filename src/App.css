@@ -18,6 +18,9 @@ body {
   width: 100vw;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  position: fixed;
+  box-sizing: border-box;
 }
 p {
   font-family: monospace;
