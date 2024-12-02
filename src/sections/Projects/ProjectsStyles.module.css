@@ -17,6 +17,7 @@
     font-style: italic;
     opacity: 0.6;
     letter-spacing: 8px;
+    color: white;
   }
 }
 .projectsContainer {
@@ -45,6 +46,7 @@
     border-radius: 8px;
     padding: 5px;
     transition: transform 0.2s ease-in-out;
+    color: white;
   }
   h3:hover {
     transform: scale(1.05);
