@@ -17,7 +17,7 @@
   align-items: center;
   overflow: auto;
   min-height: 100vh;
-  background: black;
+  background: var(--background-color);
 }
 body {
   touch-action: none;
