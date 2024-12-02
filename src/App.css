@@ -1,13 +1,13 @@
 #root {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 20px;
+
   overflow: auto;
-  max-height: 100vh;
-  background-color: aliceblue;
+  height: 100vh;
+  background-image: url("./assets/background2.jpg");
+  background-size: cover;
+  background-position: center;
 }
 body {
   touch-action: none;
