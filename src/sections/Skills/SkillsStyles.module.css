@@ -41,13 +41,22 @@ h1 {
   width: 46%;
   min-width: 250px;
   border: 5px solid;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
   img {
     margin-left: 20px;
     height: 50%;
     background-color: rgba(255, 255, 255, 0);
+    transition: transform 1s ease;
   }
   p {
     margin-left: 20px;
     align-self: center;
+  }
+}
+.skillItem:hover {
+  transform: scale(1.03);
+  img {
+    transform: rotate(360deg);
   }
 }

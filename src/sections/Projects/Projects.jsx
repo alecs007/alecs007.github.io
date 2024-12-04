@@ -3,7 +3,6 @@ import ProjectCard from "../../../public/ProjectCard.jsx";
 import profile1 from "../../assets/profile1.png";
 import proiect_roma from "../../assets/proiect_roma.png";
 import x from "../../assets/x.png";
-// import coming_soon from "../../assets/coming_soon.png";
 
 function Projects() {
   return (

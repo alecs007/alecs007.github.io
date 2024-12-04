@@ -8,6 +8,7 @@ import react from "../../assets/react.png";
 import node from "../../assets/node-js.png";
 import C from "../../assets/c-.png";
 import git from "../../assets/git.png";
+import scss from "../../assets/scss.png";
 
 function Skills() {
   return (
@@ -19,8 +20,9 @@ function Skills() {
         <SkillItem src={js} text="JavaScript" bdColor="#F7DF1E" />
         <SkillItem src={html} text="HTML" bdColor="#E44D26" />
         <SkillItem src={css} text="CSS" bdColor="#1572B6" />
-        <SkillItem src={C} text="C++" bdColor="#00599C" />
+        <SkillItem src={scss} text="SCSS" bdColor="#CF649A" />
         <SkillItem src={git} text="Git" bdColor="#D32F2F" />
+        <SkillItem src={C} text="C++" bdColor="#00599C" />
       </div>
     </section>
   );
