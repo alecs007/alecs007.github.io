@@ -14,12 +14,29 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={proiect_roma}
+          text="A school project in which I presented the main monuments of the city
+            of Rome."
           link="https://alecs007.github.io/proiect_roma/"
           h3="Proiect Roma"
         />
-        <ProjectCard src={x} link="./index.html#hero" h3="proiect" />
-        <ProjectCard src={x} link="./index.html#hero" h3="proiect" />
-        <ProjectCard src={x} link="./index.html#hero" h3="proiect" />
+        <ProjectCard
+          src={x}
+          text="proiect"
+          link="./index.html#hero"
+          h3="proiect"
+        />
+        <ProjectCard
+          src={x}
+          text="proiect"
+          link="./index.html#hero"
+          h3="proiect"
+        />
+        <ProjectCard
+          src={x}
+          text="proiect"
+          link="./index.html#hero"
+          h3="proiect"
+        />
       </div>
     </section>
   );
