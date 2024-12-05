@@ -4,7 +4,7 @@ function ProjectCard({ src, text, link, h3 }) {
   return (
     <div>
       <div className={styles.imgcontainer}>
-        <img src={src} alt={` logo`} />
+        <img src={src} alt={`${h3} logo`} />
         <div className={styles.details}>
           <p>{text}</p>
           <a href={link} target="_blank">

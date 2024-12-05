@@ -9,7 +9,7 @@ function Hero() {
   return (
     <section id="hero" className={styles.container}>
       <div>
-        <img src={profile1} className={styles.logo} alt="React logo" />
+        <img src={profile1} className={styles.logo} alt="Profile Picture" />
       </div>
       <div className={styles.info}>
         <h1>Alex Rotar </h1>

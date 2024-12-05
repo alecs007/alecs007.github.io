@@ -13,7 +13,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={proiect_roma}
-          text="A school project in which I presented the main monuments of the city
+          text="A school project in which I presented the main monuments
             of Rome."
           link="https://alecs007.github.io/proiect_roma/"
           h3="Proiect Roma"
