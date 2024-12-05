@@ -1,4 +1,4 @@
-import styles from "../src/sections/Skills/SkillsStyles.module.css";
+import styles from "../sections/Skills/SkillsStyles.module.css";
 function SkillItem({ src, text, bdColor }) {
   return (
     <div className={styles.skillItem} style={{ borderColor: bdColor }}>

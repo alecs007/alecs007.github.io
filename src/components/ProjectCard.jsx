@@ -1,4 +1,4 @@
-import styles from "..//src/sections/Projects/ProjectsStyles.module.css";
+import styles from "../sections/Projects/ProjectsStyles.module.css";
 
 function ProjectCard({ src, text, link, h3 }) {
   return (

@@ -1,5 +1,5 @@
 import styles from "./ProjectsStyles.module.css";
-import ProjectCard from "../../../public/ProjectCard.jsx";
+import ProjectCard from "../../components/ProjectCard.jsx";
 import profile1 from "../../assets/profile1.png";
 import proiect_roma from "../../assets/proiect_roma.png";
 import x from "../../assets/x.png";

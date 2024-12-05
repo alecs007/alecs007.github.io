@@ -1,5 +1,5 @@
 import styles from "./SkillsStyles.module.css";
-import SkillItem from "../../../public/SkillItem.jsx";
+import SkillItem from "../../components/SkillItem.jsx";
 import profile1 from "../../assets/profile1.png";
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
