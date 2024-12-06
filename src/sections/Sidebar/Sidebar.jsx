@@ -1,9 +1,11 @@
 import styles from "./SidebarStyles.module.css";
 
-function Sidebar({ isOpen }) {
+function Sidebar({ onToggleSidebar, isOpen }) {
   return (
     <section className={`${styles.sidebar} ${isOpen ? styles.open : ""}`}>
-      1123
+      <a onClick={onToggleSidebar} href={"#projects"}>
+        Home
+      </a>
     </section>
   );
 }

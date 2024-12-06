@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Header onToggleSidebar={toggleSidebar} isSidebarOpen={isSidebarOpen} />
-      <Sidebar isOpen={isSidebarOpen} />
+      <Sidebar onToggleSidebar={toggleSidebar} isOpen={isSidebarOpen} />
       <Hero />
       <Projects />
       <Skills />
