@@ -29,6 +29,7 @@ h1 {
   justify-content: center;
   gap: 20px;
   width: 90%;
+  margin-bottom: 30px;
 }
 .skillItem {
   cursor: default;
