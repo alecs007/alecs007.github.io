@@ -10,6 +10,7 @@ footer {
   margin-bottom: 0px;
   border: none;
   overflow: hidden;
+  position: relative;
   .line {
     margin-top: 0;
     width: 100%;
