@@ -24,7 +24,8 @@
   box-shadow: 0 0 15px #f5f5f563;
 }
 .logo:hover {
-  box-shadow: 0 0 50px #509fadaa;
+  box-shadow: 0 0 50px #f5f5f563;
+  /* box-shadow: 0 0 50px #509fadaa; */
 }
 .info {
   display: flex;
