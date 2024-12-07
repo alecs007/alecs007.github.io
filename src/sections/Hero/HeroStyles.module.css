@@ -62,8 +62,10 @@
   color: white;
 }
 
-a {
+.resume {
   width: fit-content;
+  height: 70px;
+  margin-bottom: 50px;
   align-self: center;
   text-decoration: none;
   color: #000000;

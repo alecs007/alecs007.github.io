@@ -5,6 +5,7 @@ import Sidebar from "./sections/Sidebar/Sidebar";
 import Hero from "./sections/Hero/Hero";
 import Projects from "./sections/Projects/Projects";
 import Skills from "./sections/Skills/Skills";
+import Contact from "./sections/Contact/Contact";
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -19,6 +20,7 @@ function App() {
       <Hero />
       <Projects />
       <Skills />
+      <Contact />
     </>
   );
 }

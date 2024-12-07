@@ -38,7 +38,11 @@ function Hero() {
           code.
         </p>
       </div>
-      <a href="assets/background2-XMdQVge_.jpg" download>
+      <a
+        className={styles.resume}
+        href="assets/background2-XMdQVge_.jpg"
+        download
+      >
         <button>
           Resume <i className="fas fa-cloud-download-alt"></i>
         </button>

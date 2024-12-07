@@ -1,0 +1,62 @@
+.container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(37, 38, 39, 0.644);
+  width: 95dvw;
+  max-width: 600px;
+  height: fit-content;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.contactItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  height: 100px;
+  border-radius: 30px;
+  border: 3px solid black;
+  overflow: hidden;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px #000000;
+  img {
+    height: 50%;
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.685);
+  }
+  .bar {
+    background-color: rgba(0, 0, 0, 0.637);
+    min-width: 5px;
+    height: 100%;
+  }
+  p {
+    text-wrap: nowrap;
+    overflow: hidden;
+    background-color: rgba(139, 46, 46, 0);
+    padding: 100px 500px 100px 15px;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+.contactItem:hover img {
+  background-color: rgba(46, 139, 86, 0);
+}
+.contactItem:hover p {
+  background-color: rgba(255, 255, 255, 0.685);
+  color: black;
+  text-decoration: underline;
+}
+.email {
+  a {
+    color: rgb(58, 18, 18);
+    font-weight: bolder;
+    text-decoration: none;
+  }
+}

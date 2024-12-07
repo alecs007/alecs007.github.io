@@ -32,6 +32,7 @@ h1 {
 }
 .skillItem {
   background-color: #00000069;
+  box-shadow: 0 0 10px #000000;
   margin-bottom: 20px;
   border-radius: 100px;
   display: flex;
