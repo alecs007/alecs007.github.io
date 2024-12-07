@@ -31,6 +31,7 @@ h1 {
   width: 90%;
 }
 .skillItem {
+  cursor: default;
   background-color: #00000069;
   box-shadow: 0 0 10px #000000;
   margin-bottom: 20px;
@@ -43,7 +44,7 @@ h1 {
   min-width: 250px;
   border: 5px solid;
   transition: transform 0.2s ease-in-out;
-  cursor: pointer;
+
   img {
     margin-left: 20px;
     height: 50%;

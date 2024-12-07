@@ -4,15 +4,43 @@
   width: 300px;
   height: 100%;
   margin-top: 70px;
-  background-color: #222;
+  background-color: #a5a5a5;
   transition: left 0.3s ease;
   font-size: 100px;
   z-index: 1;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  align-items: center;
+  overflow: auto;
 }
-
 .sidebar.open {
   left: 0;
+}
+.sections {
+  margin-top: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-decoration: none;
+  img {
+    height: 0.5em;
+  }
+  p {
+    margin: 0;
+    font-size: 0.25em;
+    font-weight: bolder;
+    color: black;
+    cursor: pointer;
+  }
+  a {
+    cursor: pointer;
+  }
 }

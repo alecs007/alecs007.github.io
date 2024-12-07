@@ -7,46 +7,49 @@ import reddit from "../../assets/reddit.png";
 
 function Hero() {
   return (
-    <section id="hero" className={styles.container}>
-      <div>
-        <img src={profile1} className={styles.logo} alt="Profile Picture" />
-      </div>
-      <div className={styles.info}>
-        <h1>Alex Rotar </h1>
-        <h2>&lt;web developer&gt;</h2>
-      </div>
-      <div className={styles.social}>
-        <a href="https://www.instagram.com/alexro_007/" target="_blank">
-          <img src={instagram} alt="instagram" />
-        </a>
-        <a href="https://github.com/alecs007" target="_blank">
-          <img src={github} alt="github" />
-        </a>
-        <a href="https://www.facebook.com/alegzro007" target="_blank">
-          <img src={facebook} alt="facebook" />
-        </a>
+    <section id="hero">
+      <div className={styles.whitespace}></div>
+      <section className={styles.container}>
+        <div>
+          <img src={profile1} className={styles.logo} alt="Profile Picture" />
+        </div>
+        <div className={styles.info}>
+          <h1>Alex Rotar </h1>
+          <h2>&lt;web developer&gt;</h2>
+        </div>
+        <div className={styles.social}>
+          <a href="https://www.instagram.com/alexro_007/" target="_blank">
+            <img src={instagram} alt="instagram" />
+          </a>
+          <a href="https://github.com/alecs007" target="_blank">
+            <img src={github} alt="github" />
+          </a>
+          <a href="https://www.facebook.com/alegzro007" target="_blank">
+            <img src={facebook} alt="facebook" />
+          </a>
+          <a
+            href="https://www.reddit.com/user/Plastic_Memory593/"
+            target="_blank"
+          >
+            <img src={reddit} alt="reddit" />
+          </a>
+        </div>
+        <div className={styles.description}>
+          <p>
+            Focused on building interactive websites and writing clean,
+            efficient code.
+          </p>
+        </div>
         <a
-          href="https://www.reddit.com/user/Plastic_Memory593/"
-          target="_blank"
+          className={styles.resume}
+          href="assets/background2-XMdQVge_.jpg"
+          download
         >
-          <img src={reddit} alt="reddit" />
+          <button>
+            Resume <i className="fas fa-cloud-download-alt"></i>
+          </button>
         </a>
-      </div>
-      <div className={styles.description}>
-        <p>
-          Focused on building interactive websites and writing clean, efficient
-          code.
-        </p>
-      </div>
-      <a
-        className={styles.resume}
-        href="assets/background2-XMdQVge_.jpg"
-        download
-      >
-        <button>
-          Resume <i className="fas fa-cloud-download-alt"></i>
-        </button>
-      </a>
+      </section>
     </section>
   );
 }

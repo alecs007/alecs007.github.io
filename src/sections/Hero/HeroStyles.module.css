@@ -1,5 +1,8 @@
+.whitespace {
+  height: 70px;
+}
 .container {
-  margin-top: 80px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   text-align: center;
