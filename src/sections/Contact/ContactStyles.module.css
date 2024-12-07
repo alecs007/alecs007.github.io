@@ -27,7 +27,7 @@
   box-shadow: 0 0 10px #000000;
   img {
     height: 50%;
-    padding: 24px;
+    padding: 25px;
     background-color: rgba(255, 255, 255, 0.685);
   }
   .bar {
@@ -40,6 +40,7 @@
     overflow: hidden;
     background-color: rgba(139, 46, 46, 0);
     padding: 100px 500px 100px 15px;
+    font-size: 1.5em;
   }
   a {
     text-decoration: none;
@@ -51,11 +52,13 @@
 .contactItem:hover p {
   background-color: rgba(255, 255, 255, 0.685);
   color: black;
-  text-decoration: underline;
+  text-decoration: underline 2px;
 }
 .email {
+  font-style: italic;
+  font-size: 1.5em;
   a {
-    color: rgb(58, 18, 18);
+    color: rgb(173, 93, 2);
     font-weight: bolder;
     text-decoration: none;
   }
