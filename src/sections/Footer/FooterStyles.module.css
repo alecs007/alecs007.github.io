@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  height: 54px;
+  height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,6 +8,7 @@ footer {
   white-space: nowrap;
   background-color: rgba(114, 119, 119, 0.171);
   margin-bottom: 0px;
+  padding-bottom: 5px;
   .line {
     margin-top: 0;
     width: 100%;
