@@ -42,6 +42,7 @@
     background-color: rgba(139, 46, 46, 0);
     padding: 100px 500px 100px 10px;
     font-size: 1.5em;
+    opacity: 0.7;
   }
   a {
     text-decoration: none;
