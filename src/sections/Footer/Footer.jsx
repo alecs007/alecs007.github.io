@@ -1,10 +1,12 @@
-import "./FooterStyles.module.css";
+import styles from "./FooterStyles.module.css";
 
 function Footer() {
   return (
     <footer>
-      <hr></hr>
-      <p> All rights reserved &copy; 2024 Alex Rotar</p>
+      <hr className={styles.line}></hr>
+      <p className={styles.copyright}>
+        All rights reserved &copy; 2024 Alex Rotar
+      </p>
     </footer>
   );
 }
