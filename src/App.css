@@ -15,13 +15,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
+  overflow: auto;
   min-height: 100vh;
   background: var(--background-color);
 }
 body {
-  margin: 0;
-  padding: 0;
   touch-action: none;
   height: 100vh;
   width: 100vw;
