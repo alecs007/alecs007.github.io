@@ -18,6 +18,7 @@
   overflow: auto;
   min-height: 100vh;
   background: var(--background-color);
+  box-sizing: border-box;
 }
 body {
   touch-action: none;
