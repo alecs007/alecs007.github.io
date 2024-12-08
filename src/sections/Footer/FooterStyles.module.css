@@ -6,7 +6,7 @@ footer {
   align-items: center;
   justify-content: center;
   white-space: nowrap;
-
+  background-color: rgba(114, 119, 119, 0.171);
   margin-bottom: 0px;
   border: none;
   overflow: hidden;
