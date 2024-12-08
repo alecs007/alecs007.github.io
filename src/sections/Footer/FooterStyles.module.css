@@ -25,3 +25,11 @@ footer {
     color: rgba(0, 0, 0, 0.904);
   }
 }
+@media screen and (min-width: 1400px) {
+  footer {
+    height: 60px;
+    .copyright {
+      font-size: 1.1em;
+    }
+  }
+}

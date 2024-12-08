@@ -23,7 +23,7 @@
   border: 3px solid black;
   overflow: hidden;
   margin-bottom: 30px;
-  box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 5px #000000;
   img {
     cursor: default;
     height: 50%;
@@ -64,5 +64,28 @@
     color: rgb(173, 93, 2);
     font-weight: bolder;
     text-decoration: none;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 950px;
+    margin-top: 20px;
+    h1 {
+      font-size: 5em;
+    }
+  }
+  .contactItem {
+    height: 150px;
+    min-width: 300px;
+    margin-bottom: 25px;
+    p {
+      font-size: 2.5em;
+    }
+    img {
+      padding: 40px;
+    }
+  }
+  .email {
+    font-size: 2em;
   }
 }

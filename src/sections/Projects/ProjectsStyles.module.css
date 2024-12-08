@@ -118,3 +118,32 @@
 .imgcontainer:hover .details {
   opacity: 1;
 }
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 950px;
+    margin-top: 20px;
+    h1 {
+      font-size: 5em;
+    }
+  }
+  .imgcontainer {
+    min-width: 400px;
+    min-height: 400px;
+    max-width: 400px;
+    p {
+      font-size: 2.5em;
+    }
+    button {
+      height: 50px;
+      font-size: 15px;
+    }
+    a {
+      margin-bottom: 75px;
+    }
+  }
+  .projectsContainer {
+    h3 {
+      font-size: 2em;
+    }
+  }
+}
