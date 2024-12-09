@@ -54,6 +54,8 @@
   width: 80px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 .langbtn:active {
   background-color: rgba(28, 141, 0, 0.349);
