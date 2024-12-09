@@ -63,23 +63,3 @@ h1 {
     transform: rotate(360deg);
   }
 }
-@media screen and (min-width: 1400px) {
-  .container {
-    max-width: 950px;
-    margin-top: 20px;
-    h1 {
-      font-size: 5em;
-    }
-  }
-  .skillsContainer {
-    margin-bottom: 70px;
-  }
-  .skillItem {
-    height: 100px;
-    min-width: 300px;
-    margin-bottom: 25px;
-    p {
-      font-size: 2em;
-    }
-  }
-}

@@ -52,7 +52,7 @@
   background-color: rgba(46, 139, 86, 0);
 }
 .contactItem:hover p {
-  background-color: rgba(255, 255, 255, 0.685);
+  background-color: rgb(255, 255, 255);
   color: black;
   text-decoration: underline 2px;
 }
@@ -64,28 +64,5 @@
     color: rgb(173, 93, 2);
     font-weight: bolder;
     text-decoration: none;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .container {
-    max-width: 950px;
-    margin-top: 20px;
-    h1 {
-      font-size: 5em;
-    }
-  }
-  .contactItem {
-    height: 150px;
-    min-width: 300px;
-    margin-bottom: 25px;
-    p {
-      font-size: 2.5em;
-    }
-    img {
-      padding: 40px;
-    }
-  }
-  .email {
-    font-size: 2em;
   }
 }
