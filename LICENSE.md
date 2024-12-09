@@ -1,4 +1,4 @@
-<title>MIT License</title>
+<h1>MIT License</h1>
 
 Copyright (c) 2024 Alex Rotar
 
