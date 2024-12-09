@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./HeroStyles.module.css";
 import profile1 from "../../assets/profile1.png";
 import facebook from "../../assets/facebook.png";
@@ -5,7 +6,7 @@ import instagram from "../../assets/instagram.png";
 import github from "../../assets/github.png";
 import reddit from "../../assets/reddit.png";
 
-function Hero() {
+function Hero({ text }) {
   return (
     <section id="hero">
       <div className={styles.whitespace}></div>
@@ -35,10 +36,7 @@ function Hero() {
           </a>
         </div>
         <div className={styles.description}>
-          <p>
-            Focused on building interactive websites and writing clean,
-            efficient code.
-          </p>
+          <p>{text.subtitle}</p>
         </div>
         <a
           className={styles.resume}
@@ -46,7 +44,7 @@ function Hero() {
           download
         >
           <button>
-            Resume <i className="fas fa-cloud-download-alt"></i>
+            {text.btntext} <i className="fas fa-cloud-download-alt"></i>
           </button>
         </a>
       </section>

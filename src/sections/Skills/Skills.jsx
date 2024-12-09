@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./SkillsStyles.module.css";
 import SkillItem from "../../components/SkillItem.jsx";
 import profile1 from "../../assets/profile1.png";
@@ -10,10 +11,10 @@ import C from "../../assets/c-.png";
 import git from "../../assets/git.png";
 import scss from "../../assets/scss.png";
 
-function Skills() {
+function Skills({ text }) {
   return (
     <section id="skills" className={styles.container}>
-      <h1>Skills</h1>
+      <h1>{text.title}</h1>
       <div className={styles.skillsContainer}>
         <SkillItem src={react} text="React" bdColor="#61DAFB" />
         <SkillItem src={node} text="Node.js" bdColor="#8CC84B" />

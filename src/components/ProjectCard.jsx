@@ -1,6 +1,6 @@
 import styles from "../sections/Projects/ProjectsStyles.module.css";
 
-function ProjectCard({ src, text, link, h3 }) {
+function ProjectCard({ src, text, link, h3, btn }) {
   return (
     <div>
       <div className={styles.imgcontainer}>
@@ -8,7 +8,7 @@ function ProjectCard({ src, text, link, h3 }) {
         <div className={styles.details}>
           <p>{text}</p>
           <a href={link} target="_blank">
-            <button>Learn more</button>
+            <button>{btn}</button>
           </a>
         </div>
       </div>

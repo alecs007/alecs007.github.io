@@ -1,0 +1,52 @@
+{
+  "en": {
+    "hero": {
+      "subtitle": "Focused on building interactive websites and writing clean, efficient code.",
+      "btntext": "Resume"
+    },
+    "projects": {
+      "title": "Projects",
+      "proiectroma": "A school project in which I presented the main monuments of Rome.",
+      "btntext": "Learn more"
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "contact": {
+      "email": "Or you can contact me via email:"
+    },
+    "footer": {
+      "title": "All rights reserved "
+    },
+    "sidebar": {
+      "home": "Home",
+      "projects": "Projects",
+      "skills": "Skills"
+    }
+  },
+  "ro": {
+    "hero": {
+      "subtitle": "Concentrat să construiesc site-uri web interactive și să scriu un cod curat și eficient.",
+      "btntext": "Biografie"
+    },
+    "projects": {
+      "title": "Proiecte",
+      "proiectroma": "Un proiect şcolar în care am prezentat principalele monumente ale Romei.",
+      "btntext": "Află mai multe"
+    },
+    "skills": {
+      "title": "Aptitudini"
+    },
+    "contact": {
+      "email": "Sau mă puteți contacta prin e-mail:"
+    },
+    "footer": {
+      "title": "Toate drepturile rezervate "
+    },
+    "sidebar": {
+      "home": "Acasă",
+      "projects": "Proiecte",
+      "skills": "Aptitudini"
+    }
+  }
+}

@@ -90,6 +90,8 @@
     max-width: 20ch;
     overflow: hidden;
     color: rgb(0, 0, 0);
+    text-indent: 10px;
+    text-align: center;
   }
   a {
     width: 50%;

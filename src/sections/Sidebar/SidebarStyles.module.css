@@ -25,7 +25,7 @@
   opacity: 0.9;
 }
 .item {
-  margin-top: 50px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,4 +44,33 @@
   a {
     cursor: pointer;
   }
+}
+.langbtn {
+  background-color: rgba(155, 155, 155, 0.836);
+  position: absolute;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 30px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+}
+.langbtn:active {
+  background-color: rgba(28, 141, 0, 0.349);
+}
+.langbtn:hover {
+  transform: scale(1);
+}
+.langbtna {
+  width: 80px;
+  height: 30px;
+}
+.flag {
+  height: 30px;
+}
+.slash {
+  padding: 1px;
+  margin: 4px;
+  background: black;
+  height: 20px;
 }

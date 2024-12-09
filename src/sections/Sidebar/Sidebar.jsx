@@ -1,24 +1,35 @@
+import React from "react";
 import styles from "./SidebarStyles.module.css";
 import home from "../../assets/home.png";
 import projects from "../../assets/projects.png";
 import skills from "../../assets/skills.png";
 import contact from "../../assets/contact.png";
+import romanian from "../../assets/ro.png";
+import english from "../../assets/en.png";
 
-function Sidebar({ onToggleSidebar, isOpen }) {
+function Sidebar({ onToggleSidebar, isOpen, onToggleLanguage, text }) {
   return (
     <section className={`${styles.sidebar} ${isOpen ? styles.open : ""}`}>
+      <a className={styles.langbtna}>
+        <button className={styles.langbtn} onClick={onToggleLanguage}>
+          <img src={romanian} alt="Romanian" className={styles.flag} />
+          <span className={styles.slash}></span>
+          <img src={english} alt="English" className={styles.flag} />
+        </button>
+      </a>
+
       <div className={styles.sections}>
         <a className={styles.item} onClick={onToggleSidebar} href={"#hero"}>
           <img src={home} alt="Home" />
-          <p>Home</p>
+          <p>{text.home}</p>
         </a>
         <a className={styles.item} onClick={onToggleSidebar} href={"#projects"}>
           <img src={projects} alt="Projects" />
-          <p>Projects</p>
+          <p>{text.projects}</p>
         </a>
         <a className={styles.item} onClick={onToggleSidebar} href={"#skills"}>
           <img src={skills} alt="Skills" />
-          <p>Skills</p>
+          <p>{text.skills}</p>
         </a>
         <a className={styles.item} onClick={onToggleSidebar} href={"#contact"}>
           <img src={contact} alt="Contact" />

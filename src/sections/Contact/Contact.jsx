@@ -1,10 +1,11 @@
+import React from "react";
 import styles from "./ContactStyles.module.css";
 import ContactItem from "../../components/ContactItem";
 import instagram from "../../assets/instagram2.png";
 import facebook from "../../assets/facebook2.png";
 import github from "../../assets/github2.png";
 import reddit from "../../assets/reddit2.png";
-function Contact() {
+function Contact({ text }) {
   return (
     <section id="contact" className={styles.container}>
       <h1>Contact</h1>
@@ -29,7 +30,7 @@ function Contact() {
         link="https://www.reddit.com/user/Plastic_Memory593/"
       />
       <p className={styles.email}>
-        Or you can contact me via email:{" "}
+        {text.email}{" "}
         <a href="mailto:alexro007@yahoo.com">alexro007@yahoo.com</a>
       </p>
     </section>

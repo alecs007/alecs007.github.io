@@ -1,12 +1,11 @@
+import React from "react";
 import styles from "./FooterStyles.module.css";
 
-function Footer() {
+function Footer({ text }) {
   return (
     <footer>
       <hr className={styles.line}></hr>
-      <p className={styles.copyright}>
-        All rights reserved &copy; 2024 Alex Rotar
-      </p>
+      <p className={styles.copyright}>{text.title}&copy; 2024 Alex Rotar</p>
     </footer>
   );
 }
