@@ -12,9 +12,9 @@ function Sidebar({ onToggleSidebar, isOpen, onToggleLanguage, text }) {
     <section className={`${styles.sidebar} ${isOpen ? styles.open : ""}`}>
       <a className={styles.langbtna}>
         <button className={styles.langbtn} onClick={onToggleLanguage}>
-          <img src={romanian} alt="Romanian" className={styles.flag} />
-          <span className={styles.slash}></span>
           <img src={english} alt="English" className={styles.flag} />
+          <span className={styles.slash}></span>
+          <img src={romanian} alt="Romanian" className={styles.flag} />
         </button>
       </a>
 
