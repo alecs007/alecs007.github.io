@@ -5,13 +5,16 @@
   text-align: center;
   align-items: center;
   gap: 10px;
-  background-color: rgba(37, 38, 39, 0.644);
   width: 95dvw;
   max-width: 600px;
   height: fit-content;
   overflow: hidden;
-  border-radius: 15px;
   box-shadow: 0 0 5px rgb(0, 0, 0);
+  backdrop-filter: blur(25px) saturate(100%);
+  -webkit-backdrop-filter: blur(25px) saturate(100%);
+  background-color: rgba(0, 0, 0, 0.32);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .contactItem {
   display: flex;

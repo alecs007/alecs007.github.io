@@ -43,7 +43,7 @@ function Hero({ text }) {
           href="assets/background2-XMdQVge_.jpg"
           download
         >
-          <button>
+          <button className={styles.btnresume}>
             {text.btntext} <i className="fas fa-cloud-download-alt"></i>
           </button>
         </a>

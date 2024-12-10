@@ -47,6 +47,7 @@
 }
 .langbtn {
   background-color: rgba(155, 155, 155, 0.836);
+  border: none;
   position: absolute;
   margin-top: 20px;
   border-radius: 10px;
@@ -56,12 +57,17 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  transition: transform 0s ease-in-out;
 }
+.langbtn.flipped {
+  transform: scale(-1);
+}
+.langbtn.flipped .flag:nth-child(3) {
+  transform: scale(-1);
+}
+
 .langbtn:active {
   background-color: rgba(28, 141, 0, 0.349);
-}
-.langbtn:hover {
-  transform: scale(1);
 }
 .langbtna {
   width: 80px;
@@ -69,6 +75,7 @@
 }
 .flag {
   height: 30px;
+  transition: transform 0s ease-in-out;
 }
 .slash {
   padding: 1px;
