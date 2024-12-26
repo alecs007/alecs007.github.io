@@ -9,6 +9,7 @@ While building this portfolio, I:
 	•  Focused on creating a clean, user-friendly interface to ensure a smooth browsing experience.
 
 ![portfolio1_ss](https://github.com/user-attachments/assets/2a6c961d-9d36-4238-80a3-2c370912c815)
-![portfolio2_ss](https://github.com/user-attachments/assets/57129ef2-2588-4123-8ada-673db75c08db)
+![portfolio2_ss](https://github.com/user-attachments/assets/13663ab6-0c9e-48d5-8265-8df851c5f3e1)
+
 
 
