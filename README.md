@@ -1,4 +1,4 @@
- <i><strong><h1 align=center> My first portfolio </h1></strong></i>
+# <i><strong><h1 align=center> My first portfolio </h1></strong></i>
 
 This is my first portfolio project, created to showcase my skills and projects as a beginner developer. It was built using Vite, which provided a fast and efficient setup for development. This project helped me get better at using React and learn new techniques for building websites.
 
