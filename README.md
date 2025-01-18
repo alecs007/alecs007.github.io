@@ -8,8 +8,8 @@ While building this portfolio, I:
 	•  Developed my CSS skills to design a responsive layout that works well on different devices.
 	•  Focused on creating a clean, user-friendly interface to ensure a smooth browsing experience.
 
-![portfolio1_ss](https://github.com/user-attachments/assets/2a6c961d-9d36-4238-80a3-2c370912c815)
-![portfolio2_ss](https://github.com/user-attachments/assets/13663ab6-0c9e-48d5-8265-8df851c5f3e1)
+![first_portfolio_presentation](https://github.com/user-attachments/assets/4c79ecdb-b3eb-4384-b3a5-c021137acc5e)
+
 
 
 
