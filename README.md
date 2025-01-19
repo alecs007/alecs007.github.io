@@ -4,10 +4,10 @@ This is my first portfolio project, created to showcase my skills and projects a
 
 **While building this portfolio, I:**
 
-	• Learned how to create reusable components in React, making the code more organized.
-	• Developed my CSS skills to design a responsive layout that works well on different devices.
-	• Focused on creating a clean, user-friendly interface to ensure a smooth browsing experience.
- 	• Added Two Languages: Made the site available in both Romanian and English, learning how to switch between languages in React.
+	• Reusable Components: Learned to create reusable components in React, improving code organization.
+	• Responsive Layout: Developed CSS skills to design a layout that adapts seamlessly across various devices.
+	• User Interface: Focused on building a clean, intuitive interface to ensure a smooth and engaging browsing experience.
+ 	• Multilingual Support: Implemented language-switching functionality, making the site available in both Romanian and English.
   
   This project was a great experience, and I'm looking forward to learning more and improving in the future.
 
