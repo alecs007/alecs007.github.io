@@ -2,7 +2,7 @@
 
 This is my first portfolio project, created to showcase my skills and projects as a beginner developer. It was built using Vite, which provided a fast and efficient setup for development. This project helped me get better at using React and learn new techniques for building websites.
 
-**While building this portfolio, I:**
+**What I learned while making this portfolio:**
 
 	• Reusable Components: Learned to create reusable components in React, improving code organization.
 	• Responsive Layout: Developed CSS skills to design a layout that adapts seamlessly across various devices.
