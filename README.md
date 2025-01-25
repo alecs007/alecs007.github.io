@@ -11,7 +11,8 @@ This is my first portfolio project, created to showcase my skills and projects a
   
   This project was a great experience, and I'm looking forward to learning more and improving in the future.
 
-![first_portfolio_presentation](https://github.com/user-attachments/assets/4c79ecdb-b3eb-4384-b3a5-c021137acc5e)
+![presentation_first_portfolio](https://github.com/user-attachments/assets/a1730e3d-7c65-4c5a-9fe3-0ccc34bd4756)
+
 
 
 
